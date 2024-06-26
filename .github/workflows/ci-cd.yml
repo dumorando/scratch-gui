@@ -115,6 +115,7 @@ jobs:
                 name: dist-output
                 path: ./dist
     deploy-gh-pages:
+        needs: [build]
         if: (!(startsWith(github.ref, 'refs/heads/dependabot/') || startsWith(github.ref, 'refs/heads/renovate/')))
         runs-on: ubuntu-latest
         steps:
