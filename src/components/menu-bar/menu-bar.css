@@ -3,6 +3,8 @@
 @import "../../css/z-index.css";
 
 .menu-bar {
+    background: rgb(2,0,36);
+    background: linear-gradient(239deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +29,6 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: $menu-bar-standard-font-size;
     font-weight: bold;
-    background-color: $looks-secondary;
     color: $ui-white;
 }
 
@@ -62,6 +63,7 @@
     align-items: center;
     white-space: nowrap;
     height: $menu-bar-height;
+    transition: 0.3s;
 }
 
 .menu-bar-item.hoverable {
@@ -71,6 +73,8 @@
 .menu-bar-item.active,
 .menu-bar-item.hoverable:hover {
     background-color: $ui-black-transparent;
+    font-size: 36pt;
+    transform: rotate(20deg);
 }
 
 .menu-bar-item.growable {

@@ -274,7 +274,7 @@ _Note: for clarity, the diagram above excludes states and transitions relating t
 
 Here's an example of how states transition.
 
-Suppose a user clicks on a project, and the page starts to load with URL `https://scratch.mit.edu/projects/123456`.
+Suppose a user clicks on a project, and the page starts to load with URL `https://goobermod.dumorando.com/projects/123456`.
 
 Here's what will happen in the project state machine:
 
@@ -295,6 +295,6 @@ Here's what will happen in the project state machine:
 
 ## Donate
 
-We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a
+We provide [Scratch](https://goobermod.dumorando.com) free of charge, and want to keep it that way! Please consider making a
 [donation](https://www.scratchfoundation.org/donate) to support our continued engineering, design, community, and
 resource development efforts. Donations of any size are appreciated. Thank you!

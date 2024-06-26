@@ -194,7 +194,7 @@ export default [
                 id="gui.extension.microbit.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        helpLink: 'https://goobermod.dumorando.com/microbit'
     },
     {
         name: 'LEGO MINDSTORMS EV3',
@@ -224,7 +224,7 @@ export default [
                 id="gui.extension.ev3.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/ev3'
+        helpLink: 'https://goobermod.dumorando.com/ev3'
     },
     {
         name: 'LEGO BOOST',
@@ -255,7 +255,7 @@ export default [
                 id="gui.extension.boost.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/boost'
+        helpLink: 'https://goobermod.dumorando.com/boost'
     },
     {
         name: 'LEGO Education WeDo 2.0',
@@ -286,7 +286,7 @@ export default [
                 id="gui.extension.wedo2.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/wedo'
+        helpLink: 'https://goobermod.dumorando.com/wedo'
     },
     {
         name: 'Go Direct Force & Acceleration',
@@ -316,6 +316,6 @@ export default [
                 id="gui.extension.gdxfor.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/vernier'
+        helpLink: 'https://goobermod.dumorando.com/vernier'
     }
 ];

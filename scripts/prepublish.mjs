@@ -77,7 +77,7 @@ const extractFirstMatchingFile = (filter, relativeDestDir, zipBuffer) => new Pro
 });
 
 const downloadMicrobitHex = async () => {
-    const url = 'https://downloads.scratch.mit.edu/microbit/scratch-microbit.hex.zip';
+    const url = 'https://downloads.goobermod.dumorando.com/microbit/scratch-microbit.hex.zip';
     console.info(`Downloading ${url}`);
     const response = await crossFetch(url);
     const zipBuffer = Buffer.from(await response.arrayBuffer());

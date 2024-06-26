@@ -820,7 +820,7 @@ class MenuBar extends React.Component {
                                                 src={profileIcon}
                                             />
                                             <span>
-                                                {'scratch-cat'}
+                                                {'femboy'}
                                             </span>
                                             <img
                                                 className={styles.dropdownCaretIcon}

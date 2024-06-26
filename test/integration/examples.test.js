@@ -39,9 +39,9 @@ describe('player example', () => {
             .then(pLogs => pLogs.map(log => JSON.parse(log.message).message)
                 .filter(m => m.method === 'Network.requestWillBeSent')
                 .map(m => m.params.request.url)
-                .filter(url => url === 'https://projects.scratch.mit.edu/96708228')
+                .filter(url => url === 'https://projects.goobermod.dumorando.com/96708228')
             );
-        await expect(projectRequests).toEqual(['https://projects.scratch.mit.edu/96708228']);
+        await expect(projectRequests).toEqual(['https://projects.goobermod.dumorando.com/96708228']);
     });
 });
 
@@ -70,9 +70,9 @@ describe('blocks example', () => {
             .then(pLogs => pLogs.map(log => JSON.parse(log.message).message)
                 .filter(m => m.method === 'Network.requestWillBeSent')
                 .map(m => m.params.request.url)
-                .filter(url => url === 'https://projects.scratch.mit.edu/96708228')
+                .filter(url => url === 'https://projects.goobermod.dumorando.com/96708228')
             );
-        await expect(projectRequests).toEqual(['https://projects.scratch.mit.edu/96708228']);
+        await expect(projectRequests).toEqual(['https://projects.goobermod.dumorando.com/96708228']);
     });
 
     // skipping per https://github.com/LLK/scratch-gui/issues/4902 until we have better approach

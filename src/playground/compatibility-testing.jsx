@@ -42,7 +42,7 @@ class Player extends React.Component {
                     allowTransparency
                     frameBorder="0"
                     height="402"
-                    src={`https://scratch.mit.edu/projects/embed/${this.state.projectId}/?autostart=true`}
+                    src={`https://goobermod.dumorando.com/projects/embed/${this.state.projectId}/?autostart=true`}
                     width="485"
                 />
             </div>

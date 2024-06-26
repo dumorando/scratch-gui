@@ -41,7 +41,7 @@ describe('SpriteSelectorItem Container', () => {
             assetDrag: {dragging: false}
         }});
         className = 'ponies';
-        costumeURL = 'https://scratch.mit.edu/foo/bar/pony';
+        costumeURL = 'https://goobermod.dumorando.com/foo/bar/pony';
         id = 1337;
         name = 'Pony sprite';
         onClick = jest.fn();

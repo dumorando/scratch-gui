@@ -1,0 +1,55 @@
+<block type="event_whenflagclicked" id="09cBZu:kDl;/B*9Bee%S" x="382" y="-72">
+ <next>
+  <shadow type="motion_pointindirection" id="@J.2@$5]LLLH,B4NOP!.">
+   <value name="DIRECTION">
+    <shadow type="math_angle" id="e~NAJ=1EmG`6T*(|+Y2:">
+     <field name="NUM">40</field>
+    </shadow>
+   </value>
+   <next>
+    <shadow type="motion_setrotationstyle" id="2@KK.#h_ix]:gAwskvsi">
+     <field name="STYLE">don't rotate</field>
+     <next>
+      <shadow type="control_forever" id="5ka6a[Stdb3=;uf0cNlx">
+       <statement name="SUBSTACK">
+        <shadow type="motion_movesteps" id="t,Q!xX8~*N+8~mkN,ZMf">
+         <value name="STEPS">
+          <shadow type="math_number" id="RlM%qMPC{A`g(Zsj1Z)Y">
+           <field name="NUM">10</field>
+          </shadow>
+         </value>
+         <next>
+          <shadow type="control_if" id="DO{(wSmLXH$3?X6@6,,}">
+           <value name="CONDITION">
+            <shadow type="sensing_touchingobject" id="er9|wk4p~5p96.tdOU`%">
+             <value name="TOUCHINGOBJECTMENU">
+              <shadow type="sensing_touchingobjectmenu" id="1L+co|R-(UA~q,5UC}I{">
+               <field name="TOUCHINGOBJECTMENU">_edge_</field>
+              </shadow>
+             </value>
+            </shadow>
+           </value>
+           <statement name="SUBSTACK">
+            <shadow type="sound_play" id="6ylgD_o9qc%C$w[0Q6p@">
+             <value name="SOUND_MENU">
+              <shadow type="sound_sounds_menu" id="9`}Ggq~Si{b[ZPQ[?y5*">
+               <field name="SOUND_MENU">Meow</field>
+              </shadow>
+             </value>
+            </shadow>
+           </statement>
+           <next>
+            <shadow type="motion_ifonedgebounce" id="e7~(Fy9Dt-,RG7:0k2d{">
+            </shadow>
+           </next>
+          </shadow>
+         </next>
+        </shadow>
+       </statement>
+      </shadow>
+     </next>
+    </shadow>
+   </next>
+  </shadow>
+ </next>
+</block>

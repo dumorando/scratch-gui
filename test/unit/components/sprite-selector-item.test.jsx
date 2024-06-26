@@ -31,7 +31,7 @@ describe('SpriteSelectorItemComponent', () => {
 
     beforeEach(() => {
         className = 'ponies';
-        costumeURL = 'https://scratch.mit.edu/foo/bar/pony';
+        costumeURL = 'https://goobermod.dumorando.com/foo/bar/pony';
         name = 'Pony sprite';
         onClick = jest.fn();
         onDeleteButtonClick = jest.fn();

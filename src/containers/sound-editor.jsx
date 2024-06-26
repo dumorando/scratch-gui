@@ -271,13 +271,7 @@ class SoundEditor extends React.Component {
         });
     }
     tooLoud () {
-        const numChunks = this.state.chunkLevels.length;
-        const startIndex = this.state.trimStart === null ?
-            0 : Math.floor(this.state.trimStart * numChunks);
-        const endIndex = this.state.trimEnd === null ?
-            numChunks - 1 : Math.ceil(this.state.trimEnd * numChunks);
-        const trimChunks = this.state.chunkLevels.slice(startIndex, endIndex);
-        return Math.max(...trimChunks) > MAX_RMS;
+        return false;
     }
     getUndoItem () {
         return {
