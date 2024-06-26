@@ -17,18 +17,20 @@ const motion = function (isInitialSetup, isStage, targetId, colors) {
         ${isStage ? `
         <label text="${stageSelected}"></label>
         ` : `
-        <block type="motion_movesteps">
-            <value name="STEPS">
-                <shadow type="math_number">
-                    <field name="NUM">10</field>
-                </shadow>
-            </value>
+        <block type="event_whenflagclicked" id="cASk[{N%O1^|V}0N0gBM" x="355" y="312">
+        <next>
+        <shadow type="motion_movesteps" id="Z!)z)A[lfz8-u)7;5iw9">
+         <value name="STEPS">
+        <shadow type="math_number" id="W@{v[lyelnmDw{N3NPY~">
+        <field name="NUM">10</field>
+        </shadow>
+        </value>
+        </shadow>
+        </next>
         </block>
         <block type="motion_turnright">
             <value name="DEGREES">
-                <shadow type="math_number">
-                    <field name="NUM">15</field>
-                </shadow>
+                <shadow type="operator_round"></shadow>
             </value>
         </block>
         <block type="motion_turnleft">
